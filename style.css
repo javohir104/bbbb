@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input-area input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.input-area button {
+  padding: 10px 20px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.contact-list .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.contact .info {
+  line-height: 1.2;
+}
+
+.contact .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions i {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.actions .delete {
+  color: red;
+}
